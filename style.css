@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(247,235,237);
+}
+div {
+    background-color: rgb(247,235,237);
+    font-size: 1.15em;
+    text-align: left;
+    padding: 10px;
+    margin: 0 -0.5rem;
+    margin-top: -11px;
+    top: -20rem;
+}
+#C_Name {
+    position: relative;
+    bottom: 26px;
+    right: 28px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+}
+#header-img {
+    height: 70px;
+}
+#navigation {
+    position: relative;
+    left: 35em;
+    bottom: 1.65em;
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+#form {
+    text-align: center;
+    font-size: 1.5em;
+}
+#email {
+    width: 250px;
+    height: 25px;
+}
+#submit {
+    background-color: gold;
+    border: none;
+    width: 150px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 0.65em;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    transition: 1s;
+}
+#description {
+    text-align: center;
+    list-style-position: inside;
+    text-align: start;
+    padding-left: 350px;
+    font-size: 1.2em;
+}
+li {
+    text-indent: -1.3em;
+    padding: 0.5rem;
+    list-style: none;
+}
+li > strong {
+    font-size: 1.3em;
+    position: relative;
+    left: 1.4rem;
+}
+#premium {
+    position: relative;
+    right: 5em;
+    bottom: 19.2em;
+    height: 50px;
+    width: 55px;
+}
+#shipping {
+    position: relative;
+    right: 8.8em;
+    bottom: 12.8em;
+    height: 55px;
+    width: 70px;
+}
+#quality {
+    position: relative;
+    right: 12.5em;
+    bottom: 5.5em;
+    height: 80px;
+    width: 80px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+div > strong {
+    margin: 0;
+}
+.container {
+    position: relative;
+    right: -80px;
+    width: 1120px;
+    margin: 240px auto;
+    top: 8em;
+}
+.container .box {
+    position: relative;
+    width: calc(330px - 30px);
+    height: calc(350px - 30px);
+    background: rgb(247,235,237);;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    background: linear-gradient(to bottom,lightblue 15%, rgb(247,235,237) 0%);
+}
+#footer {
+    text-align: right;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#footer > a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    right: 700px;
+    top: 20px;
+}
